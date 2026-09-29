@@ -45,7 +45,7 @@ export default function App() {
             </View>
           )}
         />
-        <Button title="Show contacts" onPress={getContacts} />
+        <Button title="GET CONTACTS" onPress={getContacts} />
       </SafeAreaView>
     </SafeAreaProvider>
   );
