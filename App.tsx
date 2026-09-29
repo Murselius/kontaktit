@@ -5,12 +5,6 @@ import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import * as Contacts from 'expo-contacts';
 import { Contact } from 'expo-contacts';
 
-type Purchase = {
-  id: number;
-  product: string;
-  amount: string;
-};
-
 export default function App() {
   const [contacts, setContacts] = useState<Contact[]>([]);
   
@@ -83,8 +77,5 @@ const styles = StyleSheet.create({
   },
   itemText: {
     fontSize: 16,
-  },
-  bought: {
-    color: '#0000FF',
   },
 });
